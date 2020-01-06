@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile POS</string>
+    <string name="action_settings">Settings</string>
+    <string name="total">Total</string>
+    <string name="barcode">Barcode</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Done</string>
+    <string name="date">Date</string>
+    <string name="date_added">Date Added</string>
+    <string name="quantity">Quantity</string>
+    <string name="remove">Remove</string>
+    <string name="scan">Scan</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="cash">Cash</string>
+    <string name="change">Change</string>
+    <string name="hint_search">Enter name or barcode</string>
+    <string name="hint_cash">Enter cash here</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="add_stock">Add A Product Lot</string>
+    <string name="previous">&lt;</string>
+    <string name="next">></string>
+    <string name="inventory">Inventory</string>
+    <string name="sale">Sale</string>
+    <string name="report">Report</string>
+
+    <string name="dialog_quit">Are you sure you want to QUIT?</string>
+    <string name="dialog_remove_product">Are you sure you want to REMOVE this product?</string>
+    <string name="dialog_clear_sale">Are you sure you want to CLEAR this sale?</string>
+    <string name="hint_empty_sale">Sale is empty.</string>
+    <string name="quit">Quit</string>
+    <string name="no">No</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="stock">Stock</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="please_input_all">Please fulfill all data.</string>
+    <string name="need_money">Need</string>
+
+
+    <string name="lang_en">English</string>
+    <string name="lang_th">ภาษาไทย (th)</string>
+    <string name="lang_jp">日本語 (jp)</string>
+    <string name="hint_lang">Please restart the application to apply this language settings.</string>
+    <string name="setting">Print</string>
+
+
+    <string-array name="period">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+
+
+    <!--Printer Helper-->
+    <!--funtion list-->
+    <string name="function_all">Comprehensive Test</string>
+    <string name="function_qrcode">QR Code</string>
+    <string name="function_barcode">Bar Code</string>
+    <string name="function_text">Text</string>
+    <string name="function_tab">Form</string>
+    <string name="function_pic">Picture</string>
+    <string name="function_multi">Multi Threading</string>
+    <string name="function_threeline">Paper Feed</string>
+
+    <!--titles-->
+    <string name="setting_title">Setting</string>
+    <string name="info_title">PrinterInformation</string>
+    <string name="qr_title">Qr Test</string>
+    <string name="barcode_title">BarCode Test</string>
+    <string name="text_title">Text Test</string>
+    <string name="bitmap_title">Picture Test</string>
+    <string name="tab_title">Form Test</string>
+    <string name="all_title">Comprehensive Test</string>
+
+    <!--text-->
+    <string name="printer_serial_num">serial number</string>
+    <string name="printer_model">printer model</string>
+    <string name="printer_head">printer head</string>
+    <string name="printer_firmware">printer firmware version</string>
+    <string name="printer_head_size">priner head size</string>
+    <string name="printer_distance">printed distance</string>
+    <string name="printer_version">service version</string>
+    <string name="printer_dev_version">development version</string>
+    <string name="enter_work">Enter Transaction</string>
+    <string name="exit_work">Exit Transaction</string>
+    <string name="print_baidu_ticket">Print Baidu ticket</string>
+    <string name="print_meituan_ticket">Print Meituan ticket</string>
+    <string name="print_eleme_ticket">Print Eleme ticket</string>
+    <string name="print_koubei_ticket">Print Koubei ticket</string>
+    <string name="print_interval_black">Print Interval Black</string>
+    <string name="print_black">Print Black</string>
+    <string name="print">Print</string>
+    <string name="printing">Printing~~~</string>
+    <string name="input_barcode">Please input barcode content</string>
+    <string name="content_barcode">barcode</string>
+    <string name="encode_barcode">barcode encode</string>
+    <string name="no_print">text null</string>
+    <string name="barcode_up">upon barcode</string>
+    <string name="barcode_down">beneath barcode</string>
+    <string name="barcode_updown">up and beneath</string>
+    <string name="text_position">HRI position</string>
+    <string name="barcode_height">height</string>
+    <string name="barcode_width">width</string>
+    <string name="content_qrcode">qrcode</string>
+    <string name="input_qrcode">Please input QrCode content</string>
+    <string name="array_qrcode">arrangemant</string>
+    <string name="size_qrcode">QR-Code size</string>
+    <string name="error_qrcode">error correctionlevel </string>
+    <string name="upload_info">Upload Printer Info</string>
+    <string name="characterset">char set</string>
+    <string name="connect_method">connect method</string>
+    <string name="size_paper">paper size</string>
+    <string name="size_text">text size</string>
+    <string name="type_text">text typeface</string>
+    <string name="bold_text">bold</string>
+    <string name="underline_text">underline</string>
+    <string name="print_density">printer density</string>
+    <string name="add_line">add</string>
+    <string name="content_form">form content</string>
+    <string name="weight_form">weight%</string>
+    <string name="align_form">select justification</string>
+    <string name="align_left">left</string>
+    <string name="align_mid">middle</string>
+    <string name="align_right">right</string>
+    <string name="about">about</string>
+    <string name="single">single</string>
+    <string name="twice">double</string>
+    <string name="connect_service">Connect</string>
+    <string name="disconnect_service">Disconnect</string>
+
+    <!--instruction-->
+    <string name="toast_1">Transaction print,use the AIDL mode!</string>
+    <string name="toast_2">The service has been disconnected!</string>
+    <string name="toast_3">Bluetooth device is unavailable</string>
+    <string name="toast_4">Bluetooth device not detected. Please open Bluetooth!</string>
+    <string name="toast_5">Not Found InnterPrinter!</string>
+    <string name="toast_6">Bluetooth connect failed!</string>
+    <string name="toast_7"> Only a single Qr code is printed for the AIDL mode</string>
+    <string name="toast_8">Now QrCode size must be less than 7!</string>
+
+    <!--about content-->
+    <string name="about_content">PrinterHelper适用于sunmi系列\nPrinterHelper集成了AIDL和BLUETOOTH两种连接方式，并且提供一系列的打印测试模块，帮助开发者更快的接入sunmi打印功能。\n上传打印信息可以帮助sunmi更好的定位出现的问题。\n官网:http://www.sunmi.com\n开发者文档: http://feedback.sunmi.com
+    </string>
+
+    <!--function explain-->
+    <string name="text_instruction">说明：Sunmi打印字体是等宽字体，除支持常用Epson指令集设置字体结构外，还可以使用AIDL接口调用直接设置字体大小尺寸，测试demo仅使用后者设置字体大小，开发者有意可自己查阅相关Epson指令设置字体变化。\n注意：字符集的设置只影响指令打印不会影响AIDL打印文字，打印单字节字符集需要先设置单字节模式，Sunmi服务默认双字节模式！</string>
+
+    <!--print content-->
+    <string name="text_print">欢迎光临(简体中文)\n歡迎光臨(繁体中文)\nWelcome(英文)\n어서 오세요.(韩文)\nいらっしゃいませ(日文)\nWillkommen in der(德文)\nSouhaits de bienvenue(法文)\nยินดีต้อนรับสู่(泰文)\nДобро пожаловать(俄文)\nBenvenuti a(意大利语)\nvítejte v(捷克文)\nBEM - vindo Ao(葡萄牙文)\nمرحبا بكم في(阿拉伯语)\n</string>
+
+    <!--table explain-->
+    <string name="table_instruction">说明：蓝牙打印表格只提供例子及打印效果测试，具体方法可参考epson指令集。</string>
+    <string name="mobile">Mobile</string>
+    <string name="hint_mobile">Enter mobile number</string>
+    <string name="sgst">sgst</string>
+    <string name="cgst">cgst</string>
+    <string name="tender">tender</string>
+    <string name="discount">Discount</string>
+    <string name="hint_discount">Enter Dicount</string>
+
+</resources>
